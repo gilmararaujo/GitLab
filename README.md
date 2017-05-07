@@ -1,4 +1,4 @@
-gitlab-installer
+## gitlab-installer
 ================
 
 Easy Gitlab installer, targeting Ubuntu 16.04 LTS, on Vagrant or on metal.
