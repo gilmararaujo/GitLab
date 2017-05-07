@@ -9,9 +9,6 @@ Requires Vagrant >= 1.8.0.
 
 ## Usage
 
-Copy `gitlab.rb.example` to `gitlab.rb` and modify it with your preferences.
-For complete template, please see https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template
-
 In VM, Gitlab is available at https://192.168.98.100/
 In server install, Gitlab is available at https://192.168.98.100/
 
