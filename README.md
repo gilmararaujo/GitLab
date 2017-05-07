@@ -1,5 +1,4 @@
 ## gitlab-installer
-================
 
 Easy Gitlab installer, targeting Ubuntu 16.04 LTS, on Vagrant or on metal.
 
@@ -8,8 +7,7 @@ Supported Vagrant providers:
 
 Requires Vagrant >= 1.8.0.
 
-Usage
-=====
+## Usage
 
 Copy `gitlab.rb.example` to `gitlab.rb` and modify it with your preferences.
 For complete template, please see https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template
@@ -18,8 +16,7 @@ In VM, Gitlab is available at https://192.168.98.100/
 In server install, Gitlab is available at https://192.168.98.100/
 
 
-Configuration
-=============
+## Configuration
 
 You can configure the VM running Gitlab by exporting environment variables on host side before issuing `vagrant up`:
  * `CFG_CPU` = how many CPUs will be given to the VM (default `2`)
